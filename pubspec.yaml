@@ -1,0 +1,46 @@
+name: car_park
+description: A simple and lightweight parking tracker.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_map: ^0.10.1+1
+  flutter_svg: ^0.19.2+1
+  flutter_duration_picker: ^1.0.4
+  flutter_local_notifications: ^3.0.2
+  auto_size_text: ^2.1.0
+  localstorage: ^3.0.3+6
+  location_permissions: ^3.0.0
+  url_launcher: ^5.2.5
+  geolocator: ^6.1.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/languages/
+  fonts:
+    - family: handlee-regular
+      fonts:
+        - asset: assets/fonts/handlee-regular.ttf
